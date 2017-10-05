@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/styles.css">
+      <!-- Angie los agregó -->
+  <link rel="stylesheet" type="fonts.css" href="">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +24,7 @@
 </head>
 
 <body>
-
+    <!-- Inicia la sección de la barra de naveg -->
     <nav class="navbar navbar-default" role="navigation">
       <a class="navbar-brand" href="#"><b class="Brand-Text">DAVID DIAZ HERRERA</b></a>
       <div class="container">
@@ -70,8 +72,11 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
     <!-- Termina la sección de la barra de naveg -->
-  <section>
+
+  <!-- BIENVENIDO -->
+    <section>
     <div class="container">
       <div class="row">
         <div class="col-lg-1-12">
@@ -81,10 +86,50 @@
     </div>
   </section>
 
+  <!-- Slideshow -->
+  <section>
+  <div class ="main">
+    <div class="slides">
+      <img src="img/5.jpg">
+      <img src="img/6.jpg">
+      <img src="img/7.jpg">
+      <img src="img/8.jpg">
+    </div>
+  </div>
+  </section>
+
+
   <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
   <script type="text/javascript" src="js/cont.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- Angie los agregó -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slides.js"></script>
+    <script type="text/javascript">
+              $(function(){
+           $(".slides").slidesjs({
+            play: {
+              active: true,
+                // [boolean] Generate the play and stop buttons.
+                // You cannot use your own buttons. Sorry.
+              effect: "slide",
+                // [string] Can be either "slide" or "fade".
+              interval: 3500,
+                // [number] Time spent on each slide in milliseconds.
+              auto: true,
+                // [boolean] Start playing the slideshow on load.
+              swap: true,
+                // [boolean] show/hide stop and play buttons
+              pauseOnHover: false,
+                // [boolean] pause a playing slideshow on hover
+              restartDelay: 2500
+                // [number] restart delay on inactive slideshow
+            }
+          });
+        });
+    </script>
 </body>
 
 </html>
