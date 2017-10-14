@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--hola hoy es 9 oct 2017-->
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="styles/styles.css">
       <!-- Angie los agregó -->
   <link rel="stylesheet" type="fonts.css" href="">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">  <!--letra para los slides-->
+
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +25,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="body">
     <!-- Inicia la sección de la barra de naveg -->
     <nav class="navbar navbar-default" role="navigation">
       <a class="navbar-brand" href="#"><b class="Brand-Text">DAVID DIAZ HERRERA</b></a>
@@ -42,15 +44,15 @@
             <ul class="nav justify-content-center">
               <li class="nav-item item1" id="item1">
                 <div class="nav-item item1 itemDiv" id="item1Div1">
-                    <a class="nav-link itemDivLink" href="#">
+                    <a class="nav-link itemDivLink" href="index.html">
                       <b class="navbar-nav-Option option1">Inicio</b>
                     </a>
                 </div>
               </li>
               <li class="nav-item item2" id="item2">
                 <div class="nav-item item2 itemDiv" id="item2Div2">
-                    <a class="nav-link itemDivLink" href="#">
-                      <b class="navbar-nav-Option option2">Nosotros</b>
+                    <a class="nav-link itemDivLink" href="nosotros.html">
+                      <b class="navbar-nav-Option option2">Acerca de</b>
                     </a>
                 </div>
               </li>
@@ -76,7 +78,7 @@
     <!-- Termina la sección de la barra de naveg -->
 
   <!-- BIENVENIDO -->
-    <section>
+    <section class="seccionBienvenido">
     <div class="container">
       <div class="row">
         <div class="col-lg-1-12">
@@ -87,13 +89,13 @@
   </section>
 
   <!-- Slideshow -->
-  <section>
+  <section >
   <div class ="main">
     <div class="slides">
-      <img src="img/5.jpg">
-      <img src="img/6.jpg">
-      <img src="img/7.jpg">
-      <img src="img/8.jpg">
+      <p class="s1"> ESTA ES LA PRIMERA SLIDE </p> 
+      <p class="s2"> ESTA ES LA SEGUNDA SLIDE</p>
+      <p class="s3"> ESTA ES LA TERCERA SLIDE </p>
+      <p class="s4"> ESTA ES LA CUARTA SLIDE </p>
     </div>
   </div>
   </section>
@@ -114,7 +116,7 @@
               active: true,
                 // [boolean] Generate the play and stop buttons.
                 // You cannot use your own buttons. Sorry.
-              effect: "slide",
+              effect: "fade",
                 // [string] Can be either "slide" or "fade".
               interval: 3500,
                 // [number] Time spent on each slide in milliseconds.
