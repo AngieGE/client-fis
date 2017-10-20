@@ -1,14 +1,14 @@
-.body
+.bodyIndex
 {
   background-image: url(../img/fondo.jpg);
   background-position: 50% 30%;
   background-size: cover;
-  //#B21F37
+  /*#B21F37*/
 }
 .navbar-default
 {
   background-color: Black; /* Sirve Background-color*/
-  //#FF4564
+  /*#FF4564*/
 }
 
 .navbar { align-items: center;}
@@ -59,10 +59,10 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    /*outline: 1px solid red !important; */
+    /*outline: 1px solid red !important;  */
 }
 
-/*SLIDESHOW*/
+/*INICIO SLIDESHOW***********************************************************************/
 .main{  /*Solo las ppts*/
   width: 60%;
   max-width: 1000px;
@@ -116,3 +116,49 @@
   display:inline-block;
   padding: 10px 20px;
 }
+
+/*ACERCA DE***********************************************************************/
+.bodyNosotros{
+  background-image: url(../img/fondo-opacidad.png); 
+  background-position: 50% 30%;
+  background-size: cover;
+}
+
+.frase{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+.info{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.avalados{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.imagenes{ padding-left: 20%;}
+.th2{ padding-left: 17px;}
+.th3{ padding-left: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
